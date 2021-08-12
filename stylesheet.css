@@ -1,0 +1,248 @@
+
+.container {
+    width: 1140px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    width: 1140px;
+    margin-top: -20px;
+    background-color: #f57;
+    height: 80px;
+}
+
+.menu > li{
+    float: left;
+    width: 150px;
+    list-style-type: none;
+}
+
+.header ul {
+    top: 0;
+    overflow: hidden;
+}
+
+.header a {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f57;
+    color: #fff;
+}
+
+.header a:hover {
+    background-color: #f7a;
+}
+
+details {
+    clear: both;
+    text-align: left;
+    display: none;
+}
+
+details > li {
+    clear: both;
+    display: block;
+    padding: 10px
+}
+
+.top{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding-top:50px
+}
+h1 {
+    font-size: 50px;
+    color: crimson;    
+}
+
+.top_p {
+    font-size: 25px;
+    background-color: blue;
+    color: rgb(250, 250, 250);
+}
+
+/* mainクラス*/
+
+.main-contents {
+    background-color: gray;
+}
+h2 {
+    font-size: 30px;    
+}
+
+span {
+    color:red;
+}
+
+
+
+.manga {
+    width: 49%;
+    border: solid white;
+    background-color: rgb(207, 207, 207);
+    float: left;
+}
+
+.image {
+    float:left;
+}
+
+img {
+    height: 200px;
+    width:auto;
+    
+}
+
+.text {
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: initial;
+    
+}
+
+.link {
+    color: green;
+    margin-bottom: 10px;
+        
+}
+
+.manga-text {
+    display: block;
+    height: auto;
+    border: solid blue;
+}
+
+.manga-text_690 {
+    display: none;
+}
+
+img[src="ネットには真実がある.jpg"]{
+    height: 100px;
+    width: auto;
+}
+
+/* 画面サイズ対応 690*/
+
+@media screen and (max-width: 690px) {
+    .container {
+        width:auto;
+    }
+
+    .menu li {
+        display: none;
+    }
+
+    .top {
+        color: green;
+        height:50px
+    }
+
+    h1 {
+        font-size:25px
+    }
+
+    .top_p {
+        display: none;
+    }
+    
+    .manga-text {
+        display: none;
+    }
+
+    .manga-text_690 {
+        display: block;
+        height:auto;
+        border:solid blue;
+    }
+
+    .manga {
+        display: flex;
+        width: auto;
+        border: solid red;
+        background-color: rgb(11, 187, 105);
+    }
+
+    details {
+        display: block;
+        clear: both;
+        margin-top: 10px;
+    }
+
+    .menu_690 > li {
+        color: white;
+        text-align: center;
+        list-style-type: none;
+        line-height: 30px;
+    }
+
+    .menu_690 {
+        background-color: #f57;
+        width: 150px       
+    }
+
+    summary {
+        display: inline-block;
+        margin-left: 50px;
+        font-size: 25px
+        
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .fa {
+        color: white
+    }
+
+    .menu_690 a{
+       height: 30px;
+       width: 150px
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width:auto;
+    }
+
+    .manga {
+        display: flex;
+        border: solid yellow;
+        background-color: blueviolet;
+    }
+
+    .manga-text {
+        display: none;
+    }
+
+    .manga-text_690 {
+        display: block;
+        height:auto;
+        border:solid blue;
+    }
+
+    .text {
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: initial;
+    }
+
+    .header li{
+        width: 100px;
+    }
+
+}
