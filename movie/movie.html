@@ -1,128 +1,160 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8"> 
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../stylesheet.css">
     <title>練習</title>
+    <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
+
     <div class="top-wrapper">
         <div class="container">
-        <div class="header">
-        <ul>
-            <li><a href="index.html">ホーム</a></li>
-            <li><a href="#manga-link">漫画</a></li>
-            <li><a href="movie.html">映画</a></li>
-            <li><a href="anime.html">アニメ</a></li>
-            <li><a href="Novel.html">小説</a></li>
-        </ul>
-        </div>
+            <div class="header">
+                <ul class="menu">
+                    <li><a href="../index.html">ホーム</a></li>
+                    <li><a href="../index.html#contents-link">漫画</a></li>
+                    <li><a href="#contents-link">映画</a></li>
+                    <li><a href="../game/game.html">ゲーム</a></li>
+                    <li><a href="../novel/novel.html">小説</a></li>
+                    
+                </ul>
+
+                <details>
+                    　<summary><span class="fa fa-bars menu-icon"></span></summary>
+                        <div class="menu_690">
+                            <li><a href="../index.html">ホーム</a></li>
+                            <li><a href="../index.html#contents-link">漫画</a></li>
+                            <li><a href="#contents-link">映画</a></li>
+                            <li><a href="../game/game.html">ゲーム</a></li>
+                            <li><a href="../novel/novel.html">小説</a></li>
+                        </div>
+                </details>
+
+                
+
+            </div>
+
+
         
             <div class="top">
-                <h1>未作成</h1>
-                <p class="top_p">未作成</p>
+                <h1>映画紹介</h1>
+                <p class="top_p">古い映画が多いです</p>
             </div>
         </div>
     </div>
-
-    <!--
 
     <div class="main">
         <div class="container">
-            <div class="main-contents"></div>
-            <h2 id="manga-link"><span>h2</span>漫画</h2>
-            <div class="manga-list">
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/81o-MpsEIKL.jpg" alt="新装版BLAME!1巻" >
-                        </a>
+            <div class="main-contents">
+                <h2 id="contents-link"><span>画像・タイトル</span>クリックで詳細へ</h2>
+                <a href="movie_info.html">詳細ページTOP</a>
+                    <div class="contents-list">
+                        <div class="contents">
+                            <div class="image">
+                                <a href="movie_info.html#movie_1">
+                                    <img src="https://stat.ameba.jp/user_images/20191220/02/gat0m0/40/60/j/o0691108014681702305.jpg" alt="インターステラーポスター" >
+                                </a>
+                            </div>
+                            <div class="text">
+                                <a href="movie_info.html#movie_1" class="link" >インターステラー</a>
+                                <p class="contents-text">地球の寿命は尽きかけていた。
+                                    <br>居住可能な新たな惑星を探すミッションに選ばれたのは、まだ幼い子供を持つ元エンジニアの男。
+                                    <br>はたして彼は人類の存続をかけたミッションを成し遂げることが出来るのか？</p>
+                                <p class="contents-text_690">地球の寿命は尽きかけていた。居住可能な惑星を探すミッションを成し遂げることが出来るのか？</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="image">
+                                <a href="movie_info.html#movie_2">
+                                    <img src="https://www.banger.jp/wp-content/uploads/2019/11/command_b2_re5-21115_page-0001-1-1020x1440.jpg" alt="コマンドーポスター" >
+                                </a>
+                            </div>
+                            <div class="text">
+                                <a href="movie_info.html#movie_2" class="link" >コマンドー</a>
+                                <p class="contents-text">かつて特殊部隊のリーダーだった男の娘が誘拐された。敵の目的は、彼の殺人能力で某国の首相を暗殺すること。だが男は飛行機から密かに脱出! その事実が敵に発覚する前に、巨大な悪の軍団のアジトを探し出し、たった一人潜入した!</p>
+                                <p class="contents-text_690">娘が誘拐された。敵の目的は、彼に某国の首相を殺害させること。だが男は悪のアジトを探し出し、娘を救出に向かう</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="image">
+                                <a href="movie_info.html#movie_3">
+                                <img src="https://m.media-amazon.com/images/I/51xWQTzBcSL._AC_.jpg" alt="バック・トゥ・ザ・フューチャーpart1" >
+                            </a>
+                        </div>
+                            <div class="text">
+                                <a href="movie_info.html#movie_3" class="link">バック・トゥ・ザ・フューチャー</a>
+                                <p class="contents-text">親友の科学者ドクが発明したタイムマシンで、高校生のマーティは1985年から1955年にタイムスリップ。そこで後に彼の両親となるジョージとロレインに出会うが、ジョージは乱暴者ビフに虐げられる日々を送っていた。そんな中、ロレインはマーティに惚れ…。</p>
+                                <p class="contents-text_690">タイムマシンで、マーティは1985年から1955年にタイムスリップ。元の時代に帰れるのか？</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="image">
+                                <a href="movie_info.html#movie_4">
+                                    <img src="https://m.media-amazon.com/images/I/51w8Bl2zciL._AC_.jpg" alt="エイリアンパッケージ" >
+                                </a>
+                            </div>
+                        <div class="text">
+                                <a href="movie_info.html#movie_4" class="link" >エイリアン</a>
+                                <p class="contents-text">2087年。資源を積んで地球に帰還するノストロモ号は、とある惑星で正体不明の地球外生命体に遭遇。船内に侵入され、乗組員たちは正体不明の生命体を相手に闘うことに……。</p>
+                                <p class="contents-text_690">地球に帰還途中の船内で、正体不明の地球外生命体と乗組員たちが闘う</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="image">
+                                <a href="movie_info.html#movie_5">
+                                    <img src="https://m.media-amazon.com/images/I/51F09VpLnPL._AC_SY445_.jpg" alt="96時間パッケージ" >
+                                </a>
+                            </div>
+                            <div class="text">
+                                <a href="movie_info.html#movie_5" class="link" >96時間</a>
+                                <p class="contents-text">17歳のアメリカ人少女キムが、友人と訪れていたパリで何者かに誘拐された。事件発生時にキムと携帯電話で話していた父親のブライアンは、元秘密工作員の知識と行動力で犯人グループの身元を割り出し、娘を救出するために単身パリへ向かう。</p>
+                                <p class="contents-text_690">娘がパリで誘拐された。事件発生時に娘と電話で話していた父親は、娘を救出するために単身パリへ向かう。</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="image">
+                                <a href="movie_info.html#movie_6">
+                                    <img src="https://m.media-amazon.com/images/I/81EjS49G05L._AC_SL1500_.jpg" alt="オズの魔法使いパッケージ" >
+                                </a>
+                        </div>
+                            <div class="text">
+                                <a href="movie_info.html#movie_6" class="link" >オズの魔法使い</a>
+                                <p class="contents-text">愛犬トトを抱きしめたまま竜巻に巻き上げられたドロシーは、魔法の国へと迷い込んでしまう。"脳みそのない案山子"、"ハートのないブリキのきこり"そして"勇気のないライオン"たちと繰り広げる、願いをかなえる不思議な冒険の旅。</p>
+                                <p class="contents-text_690">竜巻に巻き上げられたドロシーは、魔法の国へと迷い込んでしまう。愉快な仲間たちと繰り広げる、願いをかなえる不思議な冒険の旅。</p>
+                            </div>
+                        </div>
+
+                        <!--
+
+                        <div class="contents">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="#" alt=" 1巻" >
+                                </a>
+                            </div>
+                            <div class="text">
+                                <a href="#" class="link" >aaaaaa</a>
+                                <p class="contents-text">aaaaaaaaaaaaaaaaaaaa</p>
+                            </div>
+                        </div>
+                        <div class="contents">
+                            <div class="image">
+                                <a href="#">
+                                    <img src="#" alt=" 1巻" >
+                                </a>
+                            </div>
+                            <div class="text">
+                                <a href="#" class="link" >aaaaaa</a>
+                                <p class="contents-text">aaaaaaaaaaaaaaaaaaaa</p>
+                            </div>
+                        </div>
+
+                        -->
+
                     </div>
-                    <div class="text">
-                        <a href="page1.html" class="link" >BLAME!</a>
-                        <p class="manga-text">遠い未来、無限に続く都市の中でネット端末遺伝子を探す探索者「霧亥」の物語</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/71yhfhMM3YL.jpg" alt="ワールドトリガー1巻" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >ワールドトリガー</a>
-                        <p class="manga-text">異世界からの侵略者：近界民＜ネイバー＞と界境防衛組織＜ボーダー＞の戦いを描く</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/81JCC+-kHWL.jpg" alt="とんがり帽子のアトリエ1巻" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >とんがり帽子のアトリエ</a>
-                        <p class="manga-text">生まれた時から魔法を使えない人は、魔法使いになれないし、魔法をかける瞬間を見てはならない……。そのため、少女・ココは、魔法使いになる夢を諦めていた。だが、ある日、村を訪れた魔法使い・キーフリーが、魔法を使うところを見てしまい——。</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="https://csbs.shogakukan.co.jp/img/comics/506w/091224010000f0000000.jpg" alt="今日から俺は" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >今日から俺は</a>
-                        <p class="manga-text">「この転校をキッカケに俺は…」今までさえなかった三橋は目立ちたい一心で金髪パーマでツッパリデビュー！そんな三橋の前にもう一人の転校生、トンガリ頭にマスクでキメた伊藤が現れて……。金髪とトンガリ頭の最強ツッパリコンビが繰り広げる青春不良コメディ！</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="https://images-na.ssl-images-amazon.com/images/I/719crWob31L.jpg" alt="売国機関1巻" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >売国機関</a>
-                        <p class="manga-text">チュファルテク合同共和国――。 戦争が終わった国家を舞台に、内なる暗闘が始まる。 ”愛国者”の敵は、いつだって”愛国者”だ。</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="https://csbs.shogakukan.co.jp/img/comics/506w/091271710000f0000000.jpg" alt="道士郎でござる1巻" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >道士郎でござる</a>
-                        <p class="manga-text">アメリカのネバダ州から突然、12年ぶりに日本へ帰ってきた男・桐柳道士郎。すっかりアメリカナイズされていると思いきや、なぜだか立派な（!?）武士になっていた!!　学園コメディー！</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="#" alt=" 1巻" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >aaaaaa</a>
-                        <p class="manga-text">aaaaaaaaaaaaaaaaaaaa</p>
-                    </div>
-                </div>
-                <div class="manga">
-                    <div class="image">
-                        <a href="#">
-                            <img src="#" alt=" 1巻" >
-                        </a>
-                    </div>
-                    <div class="text">
-                        <a href="#" class="link" >aaaaaa</a>
-                        <p class="manga-text">aaaaaaaaaaaaaaaaaaaa</p>
-                    </div>
-                </div>
             </div>
+
         </div>
     </div>
-
-    -->
-
 </body>
